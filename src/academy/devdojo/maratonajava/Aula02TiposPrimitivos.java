@@ -18,5 +18,9 @@ public class Aula02TiposPrimitivos {
 
         int numero = (int) 100000000000L;
         System.out.println(numero);
+
+        String nome = "Goku";
+        System.out.println("Oi, meu nome é " + nome);
+
     }
 }
