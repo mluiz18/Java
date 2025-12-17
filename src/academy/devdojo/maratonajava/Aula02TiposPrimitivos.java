@@ -15,5 +15,8 @@ public class Aula02TiposPrimitivos {
         System.out.println("A idade é: " + idade + " anos");
         System.out.println(falso);
         System.out.println(idadeByte);
+
+        int numero = (int) 100000000000L;
+        System.out.println(numero);
     }
 }
