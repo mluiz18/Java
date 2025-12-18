@@ -36,5 +36,14 @@ public class Aula04Operadores {
         double contaPoupanca = 10000;
         boolean isPlayStation5Compravel = (contaPoupanca > 5000) || (contaCorrente > 5000);
         System.out.println("isPlayStation5Compravel: " + isPlayStation5Compravel);
+
+        // += -= *= /=
+        double bonus = 1800;
+        bonus += 1000;
+        bonus -= 1000;
+        bonus *= 2;
+        bonus /= 2;
+        bonus %= 2;
+        System.out.println("bonus " + bonus);
     }
 }
