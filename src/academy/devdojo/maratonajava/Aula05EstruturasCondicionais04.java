@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava;
 
-public class Aula05EstruturaCondicionais04 {
+public class Aula05EstruturasCondicionais04 {
     public static void main(String[] args) {
         byte dia = 10;
 
