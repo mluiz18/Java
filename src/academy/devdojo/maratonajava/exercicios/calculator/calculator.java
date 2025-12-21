@@ -1,7 +1,6 @@
-package academy.devdojo.maratonajava.calculator;
+package academy.devdojo.maratonajava.exercicios.calculator;
 
 import java.util.Scanner;
-import academy.devdojo.maratonajava.calculator.operations;
 
 public class calculator {
     public static void main(String[] args) {
