@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava;
 
-public class Aula05EstruturasCondicionaisExercicio {
+public class Aula05EstruturasCondicionais04Exercicio {
     /**
      * Exercicio 2: Dado um determinado salário, determine qual o valor a ser pago de imposto, valores: <br>
      *  0 < x <= 34,712 -> 9,70% <br>
