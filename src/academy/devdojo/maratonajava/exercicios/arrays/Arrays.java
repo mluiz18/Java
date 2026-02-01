@@ -31,10 +31,17 @@ public class Arrays {
                     break;
 
                 case (2):
-                    for (int i = 0; i < indice; i++) {
-                        System.out.println("número na posição " + i + ": " + arr[i]);
+                    System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+                    if (indice == 0 && arr[indice] == 0) {
+                        System.out.println("O Array não possui nenhum número");
+                    } else {
+                        for (int i = 0; i < indice; i++) {
+                            System.out.println("número na posição " + i + ": " + arr[i]);
+                        }
                     }
+                    System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
                     break;
+
 
                 default:
                     System.out.println("Opção inválida!");
