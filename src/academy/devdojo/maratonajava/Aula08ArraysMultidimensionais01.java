@@ -21,6 +21,12 @@ public class Aula08ArraysMultidimensionais01 {
                 System.out.println(arrm[i][j]);
             }
         }
+
+        for (int[] x : arrm) {
+            for (int z : x) {
+                System.out.println(z);
+            }
+        }
     }
 
 }
