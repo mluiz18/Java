@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava;
+package academy.devdojo.maratonajava.javacore.introducao;
 
 /**
  * Imprima todos os número pares de 0 até 1000000

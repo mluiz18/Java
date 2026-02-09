@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava;
+package academy.devdojo.maratonajava.javacore.introducao;
 
 /**
  * Dado o valor de um carro, descubra quantas vezes ele pode ser parcelado, aonde o valor da parcela é >= 1000

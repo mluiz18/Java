@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava;
+package academy.devdojo.maratonajava.javacore.introducao;
 
 public class Aula06EstruturasDeRepetição03 {
     public static void main(String[] args) {

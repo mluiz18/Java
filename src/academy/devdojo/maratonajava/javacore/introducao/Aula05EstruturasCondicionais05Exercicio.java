@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava;
+package academy.devdojo.maratonajava.javacore.introducao;
 
 /**
  * Dados os valores de 1 a 7, imprima se é dia útil ou final de semana, considere 1 como domingo

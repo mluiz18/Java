@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.exercicios.calculator;
+package academy.devdojo.maratonajava.javacore.introducao.exercicios.calculator;
 
 public class operations {
     public int addOperation(int n1, int n2) {

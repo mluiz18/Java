@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava;
+package academy.devdojo.maratonajava.javacore.introducao;
 
 public class Aula07Arrays01 {
     public static void main(String[] args) {
