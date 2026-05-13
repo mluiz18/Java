@@ -1,24 +1,23 @@
-package academy.devdojo.maratonajava.javacore.introducao.CSobrecargametodos.dominio;
+package academy.devdojo.maratonajava.javacore.introducao.DConstrutores.dominio;
 
 public class anime {
     private String nome;
     private String tipo;
     private int episodios;
     private String autor;
+    private String Estudio;
 
-    public anime() {
 
-    }
-
-    public void init(String nome, String tipo, int episodios) {
+    public anime(String nome, String tipo, int episodios, String autor) {
         this.nome = nome;
         this.tipo = tipo;
         this.episodios = episodios;
+        this.autor = autor;
     }
 
-    public void init(String nome, String tipo, int episodios, String autor) {
-        this.init(nome, tipo, episodios);
-        this.autor = autor;
+    public anime(String nome, String tipo, int episodios, String autor, String Estudio) {
+        this(nome, tipo, episodios, autor);
+        this.Estudio = Estudio;
     }
 
     public String getAutor() {
@@ -52,4 +51,13 @@ public class anime {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+
+    public String getEstudio() {
+        return Estudio;
+    }
+
+    public void setEstudio(String estudio) {
+        Estudio = estudio;
+    }
 }
+
